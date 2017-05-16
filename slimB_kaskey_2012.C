@@ -125,7 +125,7 @@ void slimB_kaskey_2012()
 
 
 //corrida B
-ch->Add("/afs/cern.ch/work/j/jmejiagu/public/2012_dataset/test_newvtx2016/jobs_kaskey/roofilescarpetaB/*.root/mkcands/ntuple");
+ch->Add("/store/mc/Summer12/XibToJpsiXi_BFilter_MSEL5_TuneZ2star_8TeV-Pythia6-evtgen/GEN-SIM/START53_V7C-v1/70000/001357D1-3934-E611-95D8-002590550546.root")
 
 //corrida C
 //ch->Add("/afs/cern.ch/work/j/jmejiagu/public/2012_dataset/test_newvtx2016/jobs_kaskey/roofilescarpetaC/*.root/mkcands/ntuple");
@@ -155,11 +155,11 @@ ch->Add("/afs/cern.ch/work/j/jmejiagu/public/2012_dataset/test_newvtx2016/jobs_k
    
    //Datos 2012   
 
-   //TString outfileName( " ROOTSB_kaskey_2012_prueba.root" );
+
 
   
    // corrida B
-   TString outfileName( "ROOTSB_kaskey_2012parkedata_B.root" ); 
+   TString outfileName( "prueba.root" ); 
 
    //corrida C
    //TString outfileName( "ROOTSB_kaskey_2012parkedata_C.root " ); 
